@@ -452,7 +452,7 @@ betareg_simple_results |>
   write_tsv(file = here("results", paste0(out_file_prefix, "betareg_simple_results", ".txt")))
 # Export results as Excel (input must be named list)
 list(
-  "betareg_simple_results" = betareg_simple_results
+  "betareg_simple" = betareg_simple_results
 ) |> 
   export_excel(filename = "betareg_simple_results")
 #
@@ -485,7 +485,7 @@ betareg_multi_SexAgeSource_results |>
   write_tsv(file = here("results", paste0(out_file_prefix, "betareg_multi_SexAgeSource_results", ".txt")))
 # Export results as Excel (input must be named list)
 list(
-  "betareg_multi_SexAgeSource_results" = betareg_multi_SexAgeSource_results
+  "betareg_multi_SexAgeSource" = betareg_multi_SexAgeSource_results
 ) |> 
   export_excel(filename = "betareg_multi_SexAgeSource_results")
 #
